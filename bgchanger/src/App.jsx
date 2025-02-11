@@ -38,6 +38,10 @@ function App() {
           onClick={()=>setColor('black')}
           className="rounded-full px-4 py-1 outline-none shadow-lg text-white"
           style={{backgroundColor:"black"}}>Black</button>
+          <button 
+          onClick={()=>setColor('cyan')}
+          className="rounded-full px-4 py-1 outline-none shadow-lg text-white"
+          style={{backgroundColor:"cyan"}}>cyan</button>
         </div>
       </div>
     </div>
